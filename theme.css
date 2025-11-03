@@ -1,0 +1,40 @@
+/*
+ * Update the core accent colors that drive the accent theming.
+ * If you wish to apply your own theme, these are the base variables to override
+ */
+:root[data-theme="light"] {
+  --stl-ui-swatch-accent-base: #155dfc;
+  --stl-ui-swatch-accent-muted: #bedbff;
+  --stl-ui-swatch-accent-faint: #eff6ff;
+}
+
+:root[data-theme="dark"] {
+  --stl-ui-swatch-accent-base: #2b7fff;
+  --stl-ui-swatch-accent-muted: #132762;
+  --stl-ui-swatch-accent-faint: #0b1128;
+}
+
+/* These CSS variables drive the core theme of your app. */
+
+/* :root {
+  --stl-ui-background: var(--stl-ui-swatch-gray-white);
+  --stl-ui-card-background: var(--stl-ui-swatch-gray-white);
+  --stl-ui-muted-background: var(--stl-ui-swatch-gray-gray-8);
+  --stl-ui-foreground: var(--stl-ui-swatch-gray-gray-1);
+  --stl-ui-foreground-secondary: var(--stl-ui-swatch-gray-gray-3);
+  --stl-ui-foreground-muted: var(--stl-ui-swatch-gray-gray-4);
+  --stl-ui-foreground-accent: var(--stl-ui-swatch-accent-base);
+  --stl-ui-border: var(--stl-ui-swatch-gray-gray-7);
+  --stl-ui-border-muted: var(--stl-ui-swatch-gray-gray-8);
+  --stl-ui-border-emphasis: var(--stl-ui-swatch-gray-gray-6);
+  --stl-ui-inverse-background: var(--stl-ui-swatch-gray-gray-1);
+  --stl-ui-inverse-foreground: var(--stl-ui-swatch-gray-white);
+  --stl-ui-accent-background: var(--stl-ui-swatch-accent-base);
+  --stl-ui-accent-foreground: var(--stl-ui-swatch-gray-white);
+  --stl-ui-accent-muted-background: var(--stl-ui-swatch-accent-faint);
+  --stl-ui-accent-muted-foreground: var(--stl-ui-swatch-accent-base);
+  --stl-ui-accent-border: var(--stl-ui-swatch-accent-muted);
+  --stl-ui-accent-border-muted: var(--stl-ui-swatch-accent-faint);
+  --stl-ui-accent-border-emphasis: var(--stl-ui-swatch-accent-base);
+  --stl-ui-overlay-background: #0000000d;
+} */
