@@ -21,6 +21,6 @@ Run these commands from the root of this project:
 
 ## 👀 Want to learn more?
 
-Our [Stainless Docs Platform documentation](https://stainless.com/docs/docs-platform/) contains guides, reference material, and other useful information.  Check there first.
+Our [Stainless Docs Platform documentation](https://stainless.com/docs/docs-platform/) contains guides, reference material, and other useful information. Check there first.
 
 You may also find [the Starlight docs](https://starlight.astro.build/getting-started/) and [Astro's docs](https://docs.astro.build) helpful.
