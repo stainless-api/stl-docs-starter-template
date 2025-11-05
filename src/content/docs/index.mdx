@@ -3,11 +3,7 @@ title: Introduction
 description: Get started building your docs site with Stainless.
 ---
 
-import {
-  Callout,
-  Accordion,
-  AccordionGroup,
-} from "@stainless-api/docs/components";
+import { Callout, Accordion } from "@stainless-api/docs/components";
 
 Welcome to your <strong>Stainless Docs</strong> site! Your site has a few example pages pre-built, but everything in your site is configurable. In addition to auto-generated API and SDK reference pages, you can add custom prose pages like the one you're reading now.
 
@@ -17,24 +13,24 @@ Stainless components are available as imports from `@stainless-api/docs/componen
 
 ### Callout
 
-```tsx
+```mdx
 import { Callout } from "@stainless-api/docs/components";
 
-<Callout variant="info">This is an info callout.</Callout>;
+<Callout variant="info">This is an info callout.</Callout>
 ```
 
 <Callout variant="note">This is a note callout.</Callout>
 
 ### Accordion
 
-```tsx
+```mdx
 import { Accordion } from "@stainless-api/docs/components";
 
 <Accordion>
   <Accordion.Summary>Example Accordion</Accordion.Summary>
   This is some example content inside the details element. It is hidden by
   default and will be shown when the summary is clicked.
-</Accordion>;
+</Accordion>
 ```
 
 <Accordion>
@@ -45,10 +41,10 @@ when the summary is clicked.
 
 </Accordion>
 
-### AccordionGroup
+### Accordion.Group
 
-```tsx
-import { Accordion, AccordionGroup } from "@stainless-api/docs/components";
+```mdx
+import { Accordion } from "@stainless-api/docs/components";
 
 <Accordion.Group>
   <Accordion>
@@ -63,7 +59,7 @@ import { Accordion, AccordionGroup } from "@stainless-api/docs/components";
     <Accordion.Summary>Third Accordion in Group</Accordion.Summary>
     This is some example content inside the third details element in the group.
   </Accordion>
-</Accordion.Group>;
+</Accordion.Group>
 ```
 
 <Accordion.Group>
