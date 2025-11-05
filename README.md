@@ -1,49 +1,14 @@
-## Getting started
+# Getting started
 
-Stainless Docs are built on top of Astro and Starlight. Starlight is a powerful prose documentation framework designed for speed, accessibility, and customizability.
+The Stainless Docs Platform is built on top of [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). Starlight is a powerful documentation framework designed for speed, accessibility, and customizability.
 
 This project is a standard Starlight project with the `stl-starlight` plugin pre-configured.
 
-When you run `astro dev` or `astro build`, your API/SDK reference docs are automatically regenerated with the latest information about your project.
+To get up and running quickly, use our [quickstart guide](https://stainless.com/docs/docs-platform/quickstart/).
 
-To facilitate this, you'll need to provide the `STAINLESS_API_KEY` environment variable. You can create a Stainless API key from the [Settings page](http://app.stainless.com/org/default/settings) in the Stainless Dashboard.
+## 🧞 Astro commands reference
 
-You can store this key in a `.env` file in the repository's root. That file is already git ignored for you.
-
-### Tl;dr
-
-1. Create a Stainless API key in the [Stainless Dashboard](http://app.stainless.com/org/default/settings)
-2. Paste that key in `.env`. Your file should look like `STAINLESS_API_KEY="stl_sk_xxx"`
-3. Run `pnpm install` to install dependencies
-4. Run `pnpm astro dev` to preview your docs site
-5. Commit + push to the main branch to deploy your site. Note: your site is automatically redeployed whenever your API changes.
-
-## ✨ Starlight Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
-
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Astro Commands
-
-All commands are run from the root of the project, from a terminal:
+Run these commands from the root of this project:
 
 | Command                | Action                                           |
 | :--------------------- | :----------------------------------------------- |
@@ -56,4 +21,6 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Our [Stainless Docs Platform documentation](https://stainless.com/docs/docs-platform/) contains guides, reference material, and other useful information. Check there first.
+
+You may also find [the Starlight docs](https://starlight.astro.build/getting-started/) and [Astro's docs](https://docs.astro.build) helpful.
