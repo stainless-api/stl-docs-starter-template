@@ -15,8 +15,8 @@ importers:
         specifier: ^0.36.1
         version: 0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))
       '@stainless-api/docs':
-        specifier: 0.1.0-beta.33
-        version: 0.1.0-beta.33(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)
+        specifier: 0.1.0-beta.34
+        version: 0.1.0-beta.34(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)
       astro:
         specifier: ^5.15.3
         version: 5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
@@ -1245,8 +1245,8 @@ packages:
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@stainless-api/docs@0.1.0-beta.33':
-    resolution: {integrity: sha512-wYIyf5nHLdUuioLFWrYX23HAusr/1qUaWdAlp8T7vkT1y+w8jtbW8jnIFCsdv14In/Xik5N5is3rBhkiYxejEw==}
+  '@stainless-api/docs@0.1.0-beta.34':
+    resolution: {integrity: sha512-Ti8xyqV9lkb8YDYDl0ehCh9zRDFN9sbIgLZiDYTIYt0Cnh7o1265aUQOh7M5AdXSveI+A6PGGDEuZUWZyc+I+Q==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.36.1'
@@ -4668,7 +4668,7 @@ snapshots:
       - youtubei.js
       - zod
 
-  '@stainless-api/docs@0.1.0-beta.33(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)':
+  '@stainless-api/docs@0.1.0-beta.34(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@astrojs/react': 4.4.1(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)
