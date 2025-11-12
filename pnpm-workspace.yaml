@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  # Astro dependencies
+  - esbuild
+  - sharp
+  # @stainless-docs/ui dependencies
+  - protobufjs

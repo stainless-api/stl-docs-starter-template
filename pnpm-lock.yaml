@@ -15,8 +15,8 @@ importers:
         specifier: ^0.36.1
         version: 0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))
       '@stainless-api/docs':
-        specifier: 0.1.0-beta.27
-        version: 0.1.0-beta.27(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.2)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.3)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)
+        specifier: 0.1.0-beta.32
+        version: 0.1.0-beta.32(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)
       astro:
         specifier: ^5.15.3
         version: 5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
@@ -65,24 +65,24 @@ packages:
     peerDependencies:
       zod: ^3.23.8
 
-  '@algolia/client-common@5.42.0':
-    resolution: {integrity: sha512-6iiFbm2tRn6B2OqFv9XDTcw5LdWPudiJWIbRk+fsTX+hkPrPm4e1/SbU+lEYBciPoaTShLkDbRge4UePEyCPMQ==}
+  '@algolia/client-common@5.43.0':
+    resolution: {integrity: sha512-RAFipkAnI8xhL/Sgi/gpXgNWN5HDM6F7z4NNNOcI8ZMYysZEBsqVXojg/WdKEKkQCOHVTZ3mooIjc5BaQdyVtA==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-search@5.42.0':
-    resolution: {integrity: sha512-NZR7yyHj2WzK6D5X8gn+/KOxPdzYEXOqVdSaK/biU8QfYUpUuEA0sCWg/XlO05tPVEcJelF/oLrrNY3UjRbOww==}
+  '@algolia/client-search@5.43.0':
+    resolution: {integrity: sha512-wKy6x6fKcnB1CsfeNNdGp4dzLzz04k8II3JLt6Sp81F8s57Ks3/K9qsysmL9SJa8P486s719bBttVLE8JJYurQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-browser-xhr@5.42.0':
-    resolution: {integrity: sha512-EbuxgteaYBlKgc2Fs3JzoPIKAIaevAIwmv1F+fakaEXeibG4pkmVNsyTUjpOZIgJ1kXeqNvDrcjRb6g3vYBJ9A==}
+  '@algolia/requester-browser-xhr@5.43.0':
+    resolution: {integrity: sha512-jMkRLWJYr4Hcmpl89e4vIWs69Mkf8Uwx7MG5ZKk2UxW3G3TmouGjI0Ph5mVPmg3Jf1UG3AdmVDc4XupzycT1Jw==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-fetch@5.42.0':
-    resolution: {integrity: sha512-4vnFvY5Q8QZL9eDNkywFLsk/eQCRBXCBpE8HWs8iUsFNHYoamiOxAeYMin0W/nszQj6abc+jNxMChHmejO+ftQ==}
+  '@algolia/requester-fetch@5.43.0':
+    resolution: {integrity: sha512-KyQiVz+HdYtissC0J9KIGhHhKytQyJX+82GVsbv5rSCXbETnAoojvUyCn+3KRtWUvMDYCsZ+Y7hM71STTUJUJg==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-node-http@5.42.0':
-    resolution: {integrity: sha512-gkLNpU+b1pCIwk1hKTJz2NWQPT8gsfGhQasnZ5QVv4jd79fKRL/1ikd86P0AzuIQs9tbbhlMwxsSTyJmlq502w==}
+  '@algolia/requester-node-http@5.43.0':
+    resolution: {integrity: sha512-UnUBNY0U+oT0bkYDsEqVsCkErC2w7idk4CRiLSzicqY8tGylD9oP0j13X/fse1CuiAFCCr3jfl+cBlN6dC0OFw==}
     engines: {node: '>= 14.0.0'}
 
   '@anthropic-ai/sdk@0.27.3':
@@ -414,8 +414,8 @@ packages:
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@grpc/grpc-js@1.14.0':
-    resolution: {integrity: sha512-N8Jx6PaYzcTRNzirReJCtADVoq4z7+1KQ4E70jTg/koQiMoUSN1kbNjPOqpPbhMFhfU1/l7ixspPl8dNY+FoUg==}
+  '@grpc/grpc-js@1.14.1':
+    resolution: {integrity: sha512-sPxgEWtPUR3EnRJCEtbGZG2iX8LQDUls2wUS3o27jg07KqJFMq6YDeWvMo1wfpmy3rqRdS0rivpLwhqQtEyCuQ==}
     engines: {node: '>=12.10.0'}
 
   '@grpc/proto-loader@0.8.0':
@@ -423,8 +423,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  '@ibm-cloud/watsonx-ai@1.7.2':
-    resolution: {integrity: sha512-8NhBvyWoHM/UjOF2AZPqO1otu82lTA0su1VTsCIafC0G1+KW4uFGUIDjI2b/gJrIAtQy7c9so/fTERe/lCv3iw==}
+  '@ibm-cloud/watsonx-ai@1.7.3':
+    resolution: {integrity: sha512-059l3Rs+FLZTfxIPVUiKLasEC0lkXyTo5HJBwzI1eFZUNjBdJW9BevPB7I5+6msSLoLy7Zbin4W9YarqOydvWg==}
     engines: {node: '>=18.0.0'}
 
   '@img/colour@1.0.0':
@@ -1239,14 +1239,14 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@stainless-api/docs-ui@0.1.0-beta.21':
-    resolution: {integrity: sha512-hrJem8FXbANpMoE/MKaSzfe/iwdW9aVnz7f09fnzX4RQqURmcukx/LM+fLCxtmAQkOv51sclJEtdhwsEZLoSZQ==}
+  '@stainless-api/docs-ui@0.1.0-beta.26':
+    resolution: {integrity: sha512-Oupz9ar5b2lxOWCCFZJFEHgPDRhbKd2lqeOnhtZSYz4zO2X0GmL6kQAnQRmO50V1eVAbVWUjfFHv3znYWmkb2Q==}
     peerDependencies:
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@stainless-api/docs@0.1.0-beta.27':
-    resolution: {integrity: sha512-jdCmF39e8pmkvrcitf+53jme0stN0SMPgXhkbyPI6Bg7akLKp068HK3TZc7HokhHdrVdM/ievnrTmPYuWaa9kA==}
+  '@stainless-api/docs@0.1.0-beta.32':
+    resolution: {integrity: sha512-oxVEYzQP3GtHpN7FqDFsVhx3wB8ENx+OXEkBzDDeK3aLMKAde9fcdvikf48lXKPEDjNQZyauA6qu3cI8Ym18ng==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.36.1'
@@ -1258,8 +1258,8 @@ packages:
   '@stainless-api/sdk@0.1.0-alpha.12':
     resolution: {integrity: sha512-guvu9R/Adro8NIgXvqdMJinOgVwIFs1YYTi3Ko596uVx5DdRFZE2+s9+fjKxV1yLvkjTOYa9vQBC6r3nqCj7+A==}
 
-  '@stainless-api/ui-primitives@0.1.0-beta.17':
-    resolution: {integrity: sha512-B3putxT8dCewIt7D5Z7KdMquadvd4UledQFLWVdh4uVI0JFBDMPS3nXwVu4vrCVDB6Oqu5xf8FRYzF+7S8QlmQ==}
+  '@stainless-api/ui-primitives@0.1.0-beta.19':
+    resolution: {integrity: sha512-5zuGPTx9Cpayi/UoPE/cP5WLyrDm2qCKwjNTnloQKP8NYzzHVkzmY8atxFGNwk8wFHYLnURd2pRvf3LXOTZ60A==}
     peerDependencies:
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
@@ -2116,8 +2116,8 @@ packages:
   i18next@23.16.8:
     resolution: {integrity: sha512-06r/TitrM88Mg5FdUXAKL96dJMzgqLE5dv3ryBAra4KCwD9mJ4ndOTS95ZuymIGoE+2hzfdaMak2X11/es7ZWg==}
 
-  ibm-cloud-sdk-core@5.4.3:
-    resolution: {integrity: sha512-D0lvClcoCp/HXyaFlCbOT4aTYgGyeIb4ncxZpxRuiuw7Eo79C6c49W53+8WJRD9nxzT5vrIdaky3NBcTdBtaEg==}
+  ibm-cloud-sdk-core@5.4.4:
+    resolution: {integrity: sha512-2zqgHp3W2meNJtommmgnZdouj2dPK4AbNQ4QN7BjNpfsQhWNO4eZbUYo2iD2V3I2k9mAsCjzsM87YuE+mu8gfA==}
     engines: {node: '>=18'}
 
   iconv-lite@0.6.3:
@@ -2285,8 +2285,8 @@ packages:
       typeorm:
         optional: true
 
-  langsmith@0.3.78:
-    resolution: {integrity: sha512-PVrog/DiTsiyOQ38GeZEIVadgk55/dfE3axagQksT3dt6KhFuRxhNaZrC0rp3dNW9RQJCm/c3tn+PiybwQNY0Q==}
+  langsmith@0.3.79:
+    resolution: {integrity: sha512-j5uiAsyy90zxlxaMuGjb7EdcL51Yx61SpKfDOI1nMPBbemGju+lf47he4e59Hp5K63CY8XWgFP42WeZ+zuIU4Q==}
     peerDependencies:
       '@opentelemetry/api': '*'
       '@opentelemetry/exporter-trace-otlp-proto': '*'
@@ -2356,8 +2356,8 @@ packages:
   markdown-table@3.0.4:
     resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
 
-  marked@16.4.1:
-    resolution: {integrity: sha512-ntROs7RaN3EvWfy3EZi14H4YxmT6A5YvywfhO+0pm+cH/dnSQRmdAmoFIc3B9aiwTehyk7pESH4ofyBY+V5hZg==}
+  marked@16.4.2:
+    resolution: {integrity: sha512-TI3V8YYWvkVf3KJe1dRkpnjs68JUPyEa5vjKrp1XEEJUAOaQc+Qj+L1qWbPd0SJuAdQkFU0h73sXXqwDYxsiDA==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -2619,14 +2619,14 @@ packages:
     resolution: {integrity: sha512-Z4SmBUweYa09+o6pG+eASabEpP6QkQ70yHj351pQoEXIs8uHbaU2DWVmzBANKgflPa47A50PtB2+NgRpQvr7vA==}
     engines: {node: '>= 10'}
 
-  nice-grpc-client-middleware-retry@3.1.12:
-    resolution: {integrity: sha512-CHKIeHznAePOsT2dLeGwoOFaybQz6LvkIsFfN8SLcyGyTR7AB6vZMaECJjx+QPL8O2qVgaVE167PdeOmQrPuag==}
+  nice-grpc-client-middleware-retry@3.1.13:
+    resolution: {integrity: sha512-Q9I/wm5lYkDTveKFirrTHBkBY137yavXZ4xQDXTPIycUp7aLXD8xPTHFhqtAFWUw05aS91uffZZRgdv3HS0y/g==}
 
   nice-grpc-common@2.0.2:
     resolution: {integrity: sha512-7RNWbls5kAL1QVUOXvBsv1uO0wPQK3lHv+cY1gwkTzirnG1Nop4cBJZubpgziNbaVc/bl9QJcyvsf/NQxa3rjQ==}
 
-  nice-grpc@2.1.13:
-    resolution: {integrity: sha512-IkXNok2NFyYh0WKp1aJFwFV3Ue2frBkJ16ojrmgX3Tc9n0g7r0VU+ur3H/leDHPPGsEeVozdMynGxYT30k3D/Q==}
+  nice-grpc@2.1.14:
+    resolution: {integrity: sha512-GK9pKNxlvnU5FAdaw7i2FFuR9CqBspcE+if2tqnKXBcE0R8525wj4BZvfcwj7FjvqbssqKxRHt2nwedalbJlww==}
 
   nlcst-to-string@4.0.0:
     resolution: {integrity: sha512-YKLBCcUYKAg0FNlOBT6aI91qFmSiFKiluk655WzPF+DDMA02qIyy8uiRqI8QXtcFpEvll12LpL5MXqEmAZ+dcA==}
@@ -3624,26 +3624,26 @@ snapshots:
       zod: 3.25.76
       zod-to-json-schema: 3.24.6(zod@3.25.76)
 
-  '@algolia/client-common@5.42.0': {}
+  '@algolia/client-common@5.43.0': {}
 
-  '@algolia/client-search@5.42.0':
+  '@algolia/client-search@5.43.0':
     dependencies:
-      '@algolia/client-common': 5.42.0
-      '@algolia/requester-browser-xhr': 5.42.0
-      '@algolia/requester-fetch': 5.42.0
-      '@algolia/requester-node-http': 5.42.0
+      '@algolia/client-common': 5.43.0
+      '@algolia/requester-browser-xhr': 5.43.0
+      '@algolia/requester-fetch': 5.43.0
+      '@algolia/requester-node-http': 5.43.0
 
-  '@algolia/requester-browser-xhr@5.42.0':
+  '@algolia/requester-browser-xhr@5.43.0':
     dependencies:
-      '@algolia/client-common': 5.42.0
+      '@algolia/client-common': 5.43.0
 
-  '@algolia/requester-fetch@5.42.0':
+  '@algolia/requester-fetch@5.43.0':
     dependencies:
-      '@algolia/client-common': 5.42.0
+      '@algolia/client-common': 5.43.0
 
-  '@algolia/requester-node-http@5.42.0':
+  '@algolia/requester-node-http@5.43.0':
     dependencies:
-      '@algolia/client-common': 5.42.0
+      '@algolia/client-common': 5.43.0
 
   '@anthropic-ai/sdk@0.27.3':
     dependencies:
@@ -4046,7 +4046,7 @@ snapshots:
     dependencies:
       graphql: 16.12.0
 
-  '@grpc/grpc-js@1.14.0':
+  '@grpc/grpc-js@1.14.1':
     dependencies:
       '@grpc/proto-loader': 0.8.0
       '@js-sdsl/ordered-map': 4.4.2
@@ -4058,12 +4058,12 @@ snapshots:
       protobufjs: 7.5.4
       yargs: 17.7.2
 
-  '@ibm-cloud/watsonx-ai@1.7.2':
+  '@ibm-cloud/watsonx-ai@1.7.3':
     dependencies:
       '@types/node': 18.19.130
       extend: 3.0.2
       form-data: 4.0.4
-      ibm-cloud-sdk-core: 5.4.3
+      ibm-cloud-sdk-core: 5.4.4
     transitivePeerDependencies:
       - supports-color
 
@@ -4176,20 +4176,20 @@ snapshots:
 
   '@js-sdsl/ordered-map@4.4.2': {}
 
-  '@langchain/community@0.3.57(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.2)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.3)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)':
+  '@langchain/community@0.3.57(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)':
     dependencies:
       '@browserbasehq/stagehand': 1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76)
-      '@ibm-cloud/watsonx-ai': 1.7.2
+      '@ibm-cloud/watsonx-ai': 1.7.3
       '@langchain/core': 0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))
       '@langchain/openai': 0.6.16(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(ws@8.18.3)
       '@langchain/weaviate': 0.2.3(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))
       binary-extensions: 2.3.0
       expr-eval: 2.0.2
       flat: 5.0.2
-      ibm-cloud-sdk-core: 5.4.3
+      ibm-cloud-sdk-core: 5.4.4
       js-yaml: 4.1.0
       langchain: 0.3.36(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(axios@1.13.2)(cheerio@1.1.2)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(ws@8.18.3)
-      langsmith: 0.3.78(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))
+      langsmith: 0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))
       openai: 5.12.2(ws@8.18.3)(zod@3.25.76)
       uuid: 10.0.0
       zod: 3.25.76
@@ -4231,7 +4231,7 @@ snapshots:
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.21
-      langsmith: 0.3.78(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))
+      langsmith: 0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -4493,12 +4493,12 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@stainless-api/docs-ui@0.1.0-beta.21(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.2)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/react@19.2.2)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.3)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)':
+  '@stainless-api/docs-ui@0.1.0-beta.26(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/react@19.2.2)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)':
     dependencies:
-      '@algolia/client-search': 5.42.0
-      '@langchain/community': 0.3.57(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.2)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.3)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)
+      '@algolia/client-search': 5.43.0
+      '@langchain/community': 0.3.57(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)
       '@markdoc/markdoc': 0.5.4(@types/react@19.2.2)(react@19.2.0)
-      '@stainless-api/ui-primitives': 0.1.0-beta.17(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@stainless-api/ui-primitives': 0.1.0-beta.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       ai: 4.3.19(react@19.2.0)(zod@3.25.76)
       clsx: 2.1.1
       fuse.js: 7.1.0
@@ -4668,14 +4668,14 @@ snapshots:
       - youtubei.js
       - zod
 
-  '@stainless-api/docs@0.1.0-beta.27(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.2)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.3)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)':
+  '@stainless-api/docs@0.1.0-beta.32(@astrojs/starlight@0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)))(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/mdast@4.0.4)(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))(axios@1.13.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(vite@6.4.1(@types/node@24.10.0)(yaml@2.8.1))(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@astrojs/react': 4.4.1(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(yaml@2.8.1)
       '@astrojs/starlight': 0.36.2(astro@5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1))
-      '@stainless-api/docs-ui': 0.1.0-beta.21(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.2)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/react@19.2.2)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.3)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)
+      '@stainless-api/docs-ui': 0.1.0-beta.26(@browserbasehq/sdk@2.6.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.56.1)(deepmerge@4.3.1)(dotenv@17.2.3)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(zod@3.25.76))(@ibm-cloud/watsonx-ai@1.7.3)(@langchain/core@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(@types/react@19.2.2)(axios@1.13.2)(cheerio@1.1.2)(ibm-cloud-sdk-core@5.4.4)(jsonwebtoken@9.0.2)(mongodb@6.20.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))(pg@8.16.3)(playwright@1.56.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(redis@4.7.1)(weaviate-client@3.9.0)(ws@8.18.3)(zod@3.25.76)
       '@stainless-api/sdk': 0.1.0-alpha.12
-      '@stainless-api/ui-primitives': 0.1.0-beta.17(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@stainless-api/ui-primitives': 0.1.0-beta.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       astro: 5.15.3(@types/node@24.10.0)(rollup@4.52.5)(typescript@5.9.3)(yaml@2.8.1)
       cheerio: 1.1.2
       clsx: 2.1.1
@@ -4683,7 +4683,7 @@ snapshots:
       get-port: 7.1.0
       highlight.js: 11.11.1
       lucide-react: 0.544.0(react@19.2.0)
-      marked: 16.4.1
+      marked: 16.4.2
       node-html-parser: 7.0.1
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
@@ -4871,7 +4871,7 @@ snapshots:
 
   '@stainless-api/sdk@0.1.0-alpha.12': {}
 
-  '@stainless-api/ui-primitives@0.1.0-beta.17(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@stainless-api/ui-primitives@0.1.0-beta.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       clsx: 2.1.1
       lucide-react: 0.544.0(react@19.2.0)
@@ -5987,7 +5987,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.28.4
 
-  ibm-cloud-sdk-core@5.4.3:
+  ibm-cloud-sdk-core@5.4.4:
     dependencies:
       '@types/debug': 4.1.12
       '@types/node': 18.19.130
@@ -6108,7 +6108,7 @@ snapshots:
       js-tiktoken: 1.0.21
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
-      langsmith: 0.3.78(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))
+      langsmith: 0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76))
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
@@ -6124,7 +6124,7 @@ snapshots:
       - openai
       - ws
 
-  langsmith@0.3.78(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)):
+  langsmith@0.3.79(@opentelemetry/api@1.9.0)(openai@5.12.2(ws@8.18.3)(zod@3.25.76)):
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
@@ -6181,7 +6181,7 @@ snapshots:
 
   markdown-table@3.0.4: {}
 
-  marked@16.4.1: {}
+  marked@16.4.2: {}
 
   math-intrinsics@1.1.0: {}
 
@@ -6735,7 +6735,7 @@ snapshots:
 
   neotraverse@0.6.18: {}
 
-  nice-grpc-client-middleware-retry@3.1.12:
+  nice-grpc-client-middleware-retry@3.1.13:
     dependencies:
       abort-controller-x: 0.4.3
       nice-grpc-common: 2.0.2
@@ -6744,9 +6744,9 @@ snapshots:
     dependencies:
       ts-error: 1.0.6
 
-  nice-grpc@2.1.13:
+  nice-grpc@2.1.14:
     dependencies:
-      '@grpc/grpc-js': 1.14.0
+      '@grpc/grpc-js': 1.14.1
       abort-controller-x: 0.4.3
       nice-grpc-common: 2.0.2
 
@@ -7644,8 +7644,8 @@ snapshots:
       graphql: 16.12.0
       graphql-request: 6.1.0(graphql@16.12.0)
       long: 5.3.2
-      nice-grpc: 2.1.13
-      nice-grpc-client-middleware-retry: 3.1.12
+      nice-grpc: 2.1.14
+      nice-grpc-client-middleware-retry: 3.1.13
       nice-grpc-common: 2.0.2
       uuid: 9.0.1
     transitivePeerDependencies:
