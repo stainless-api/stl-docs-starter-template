@@ -1,6 +1,4 @@
-neverBuiltDependencies:
-  # Astro dependencies
+ignoredBuiltDependencies:
   - esbuild
-  - sharp
-  # @stainless-docs/ui dependencies
   - protobufjs
+  - sharp
