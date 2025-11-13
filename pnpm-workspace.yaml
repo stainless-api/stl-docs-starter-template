@@ -1,4 +1,4 @@
-onlyBuiltDependencies:
+neverBuiltDependencies:
   # Astro dependencies
   - esbuild
   - sharp
