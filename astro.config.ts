@@ -7,6 +7,10 @@ export default defineConfig({
     stainlessDocs({
       apiReference: {
         stainlessProject: "{{ PROJECT_NAME }}",
+        propertySettings: {
+          collapseDescription: false,
+          expandDepth: 2,
+        },
       },
       title: "{{ PROJECT_TITLE }}",
       customCss: ["./theme.css"],
@@ -37,12 +41,9 @@ export default defineConfig({
         {
           label: "API Reference",
           link: "/api",
-          sidebar: [
-            {
-              label: "API Reference",
-              items: generateAPIReferenceItems(),
-            },
-          ],
+          sidebar: generateAPIReferenceItems({
+            excludeResourceOverviewPages: true,
+          }),
         },
       ],
     }),
