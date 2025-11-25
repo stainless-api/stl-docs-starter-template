@@ -13,7 +13,7 @@
   "dependencies": {
     "@astrojs/react": "^4.4.2",
     "@astrojs/starlight": "^0.36.3",
-    "@stainless-api/docs": "0.1.0-beta.46",
+    "@stainless-api/docs": "0.1.0-beta.47",
     "astro": "^5.16.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
