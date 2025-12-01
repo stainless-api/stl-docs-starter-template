@@ -12,15 +12,15 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.4.2",
-    "@astrojs/starlight": "^0.36.3",
-    "@stainless-api/docs": "0.1.0-beta.47",
-    "astro": "^5.16.0",
+    "@astrojs/starlight": "^0.37.0",
+    "@stainless-api/docs": "0.1.0-beta.50",
+    "astro": "^5.16.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@types/react": "^19.2.7",
-    "prettier": "^3.6.2"
+    "prettier": "^3.7.3"
   }
 }
