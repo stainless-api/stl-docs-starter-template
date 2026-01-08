@@ -5,6 +5,6 @@
 
 :root {
   --stl-color-accent: light-dark(#155dfc, #2b7fff);
-  /* --stl-color-background: light-dark(light-dark(#ffffff, #0a0a0a)); */
+  /* --stl-color-background: light-dark(#ffffff, #0a0a0a); */
   /* --stl-color-foreground: light-dark(#262626, #f5f5f5); */
 }
