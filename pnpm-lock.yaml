@@ -15,11 +15,11 @@ importers:
         specifier: ^0.37.3
         version: 0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
       '@stainless-api/docs':
-        specifier: 0.1.0-beta.77
-        version: 0.1.0-beta.77(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2))
+        specifier: 0.1.0-beta.78
+        version: 0.1.0-beta.78(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2))
       '@stainless-api/docs-ai-chat':
-        specifier: 0.1.0-beta.21
-        version: 0.1.0-beta.21(@stainless-api/docs-ui@0.1.0-beta.57(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@stainless-api/docs@0.1.0-beta.77(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2)))(@stainless-api/ui-primitives@0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        specifier: 0.1.0-beta.22
+        version: 0.1.0-beta.22(@stainless-api/docs-ui@0.1.0-beta.58(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@stainless-api/docs@0.1.0-beta.78(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2)))(@stainless-api/ui-primitives@0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       astro:
         specifier: ^5.16.11
         version: 5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)
@@ -42,24 +42,24 @@ importers:
 
 packages:
 
-  '@algolia/client-common@5.46.2':
-    resolution: {integrity: sha512-Hj8gswSJNKZ0oyd0wWissqyasm+wTz1oIsv5ZmLarzOZAp3vFEda8bpDQ8PUhO+DfkbiLyVnAxsPe4cGzWtqkg==}
+  '@algolia/client-common@5.46.3':
+    resolution: {integrity: sha512-SN+yK840nXa+2+mF72hrDfGd8+B7eBjF8TK/8KoRMdjlAkO/P3o3vtpjKRKI/Sk4L8kYYkB/avW8l+cwR+O1Ew==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/client-search@5.46.2':
-    resolution: {integrity: sha512-ZsOJqu4HOG5BlvIFnMU0YKjQ9ZI6r3C31dg2jk5kMWPSdhJpYL9xa5hEe7aieE+707dXeMI4ej3diy6mXdZpgA==}
+  '@algolia/client-search@5.46.3':
+    resolution: {integrity: sha512-hfpCIukPuwkrlwsYfJEWdU5R5bduBHEq2uuPcqmgPgNq5MSjmiNIzRuzxGZZgiBKcre6gZT00DR7G1AFn//wiQ==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-browser-xhr@5.46.2':
-    resolution: {integrity: sha512-ekotpCwpSp033DIIrsTpYlGUCF6momkgupRV/FA3m62SreTSZUKjgK6VTNyG7TtYfq9YFm/pnh65bATP/ZWJEg==}
+  '@algolia/requester-browser-xhr@5.46.3':
+    resolution: {integrity: sha512-/Ku9GImJf2SKoRM2S3e03MjCVaWJCP5olih4k54DRhNDdmxBkd3nsWuUXvDElY3Ucw/arBYGs5SYz79SoS5APw==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-fetch@5.46.2':
-    resolution: {integrity: sha512-gKE+ZFi/6y7saTr34wS0SqYFDcjHW4Wminv8PDZEi0/mE99+hSrbKgJWxo2ztb5eqGirQTgIh1AMVacGGWM1iw==}
+  '@algolia/requester-fetch@5.46.3':
+    resolution: {integrity: sha512-Uw+SPy/zpfwbH1AxQaeOWvWVzPEcO0XbtLbbSz0HPcEIiBGWyfa9LUCxD5UferbDjrSQNVimmzl3FaWi4u8Ykw==}
     engines: {node: '>= 14.0.0'}
 
-  '@algolia/requester-node-http@5.46.2':
-    resolution: {integrity: sha512-ciPihkletp7ttweJ8Zt+GukSVLp2ANJHU+9ttiSxsJZThXc4Y2yJ8HGVWesW5jN1zrsZsezN71KrMx/iZsOYpg==}
+  '@algolia/requester-node-http@5.46.3':
+    resolution: {integrity: sha512-4No9iTjr1GZ0JWsFbQJj9aZBnmKyY1sTxOoEud9+SGe3U6iAulF0A0lI4cWi/F/Gcfg8V3jkaddcqSQKDnE45w==}
     engines: {node: '>= 14.0.0'}
 
   '@astrojs/compiler@2.13.0':
@@ -359,14 +359,26 @@ packages:
   '@expressive-code/core@0.41.5':
     resolution: {integrity: sha512-II5TEy5eOoXiqPwqtpSqwamUd7lZS3YH3ofxR1ZyQMmygqORZn8/7SzgfF8G0kB7uKCBzFZT6RgKgCuHcJuPpA==}
 
+  '@expressive-code/core@0.41.6':
+    resolution: {integrity: sha512-FvJQP+hG0jWi/FLBSmvHInDqWR7jNANp9PUDjdMqSshHb0y7sxx3vHuoOr6SgXjWw+MGLqorZyPQ0aAlHEok6g==}
+
   '@expressive-code/plugin-frames@0.41.5':
     resolution: {integrity: sha512-qU0cvAQGfRLX7XwGf3/+hqIVmAc/mNNTlqVLR0iBfJF6EKvtP3R7/uAlPrAxnxQxn0meTazCz8D+PsPyOpHKrQ==}
+
+  '@expressive-code/plugin-frames@0.41.6':
+    resolution: {integrity: sha512-d+hkSYXIQot6fmYnOmWAM+7TNWRv/dhfjMsNq+mIZz8Tb4mPHOcgcfZeEM5dV9TDL0ioQNvtcqQNuzA1sRPjxg==}
 
   '@expressive-code/plugin-shiki@0.41.5':
     resolution: {integrity: sha512-gw6OWvnmDmvcKJ5AZSzl2VkuixJMQ/zWSwPLFNzitqCa8aPfIFunb0K8IIOsE43LELgOWkie9lRFspOxwDVwrg==}
 
+  '@expressive-code/plugin-shiki@0.41.6':
+    resolution: {integrity: sha512-Y6zmKBmsIUtWTzdefqlzm/h9Zz0Rc4gNdt2GTIH7fhHH2I9+lDYCa27BDwuBhjqcos6uK81Aca9dLUC4wzN+ng==}
+
   '@expressive-code/plugin-text-markers@0.41.5':
     resolution: {integrity: sha512-0DSiTsjWFEz6/iuLOGNNy2GaeCW41OwnVJMKx1tS+XKeQxAL89UkZP3egWNzxjWNHNMzEv3ZWWWYqbonEQlv/Q==}
+
+  '@expressive-code/plugin-text-markers@0.41.6':
+    resolution: {integrity: sha512-PBFa1wGyYzRExMDzBmAWC6/kdfG1oLn4pLpBeTfIRrALPjcGA/59HP3e7q9J0Smk4pC7U+lWkA2LHR8FYV8U7Q==}
 
   '@img/colour@1.0.0':
     resolution: {integrity: sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw==}
@@ -730,29 +742,29 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@stainless-api/docs-ai-chat@0.1.0-beta.21':
-    resolution: {integrity: sha512-msKz8n7anO/SxPDlz0flqoXM9Jl0cZ2emlb+UT37OKl1+RJflsQNgc0YClzLBSS3AYpIa6swtQ6QroPZXqIi6A==}
+  '@stainless-api/docs-ai-chat@0.1.0-beta.22':
+    resolution: {integrity: sha512-nuMuGdC2Fc9JQd9m6l48DbcWwp/sBlxguN+e2imP/M6gGuq0AJmYBgp81UV2RxHlVbXY+3S9G/ZFnf5hh4UkzA==}
     peerDependencies:
-      '@stainless-api/docs': 0.1.0-beta.77
-      '@stainless-api/docs-ui': 0.1.0-beta.57
+      '@stainless-api/docs': 0.1.0-beta.78
+      '@stainless-api/docs-ui': 0.1.0-beta.58
       '@stainless-api/ui-primitives': 0.1.0-beta.43
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@stainless-api/docs-search@0.1.0-beta.10':
-    resolution: {integrity: sha512-1foTkn6VFODd5T0ojnJwUXCunGdlmz9P+W2mOQEmwWEltTAWf438CVTjEHDR8EIq+PUQWYb1ZR/lZK3sXyyO0w==}
+  '@stainless-api/docs-search@0.1.0-beta.11':
+    resolution: {integrity: sha512-ZFSOiEC6fmH7y9qTwQ2B2XsOVD9/IxMaeXzxiga5bJgTWv0ZfrLSUfFqN4yhPChEHsJAMA2r5kbOfY562E+Wdg==}
     peerDependencies:
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@stainless-api/docs-ui@0.1.0-beta.57':
-    resolution: {integrity: sha512-m47V0li9dY3j24pl96PAj5Kq2znSUu1r9qvp6U/9q9XOyNaqIBVKeCZI904CeFtQKCIiCDFHydkUaevkgQeN3w==}
+  '@stainless-api/docs-ui@0.1.0-beta.58':
+    resolution: {integrity: sha512-g7hBTuNvWhG/erafkZ1JpjgFw7UiZSjComG2mfvGY/2jogMtfbweLWkDEWvO6UPRjlcwWGx7oqYR+CPgstLNgQ==}
     peerDependencies:
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@stainless-api/docs@0.1.0-beta.77':
-    resolution: {integrity: sha512-nNcq4EwzvRP6/fLfk3i1irVscLk0sVm+ISExGcUS73MrJ10NSMLnViUZeDWgWWZV7MT7pWIidZWyO0DDKDMFhw==}
+  '@stainless-api/docs@0.1.0-beta.78':
+    resolution: {integrity: sha512-8705lTPzllwniS7L474xsXz/PgM2jxgCploIhBbgYc/9KDP70aZyoE+wpLodNs8xdBeJShgL5UwCtTcezW0z3g==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.37.0'
@@ -906,6 +918,11 @@ packages:
     resolution: {integrity: sha512-6jfABbPO0fkRD1ROAPBQtJR2p7gjbmk/GjfblOpo5Z7F+gwhL7+s8bEhLz9GdW10yfbn+gJvwEf7f9Lu2clh2A==}
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
+
+  astro-expressive-code@0.41.6:
+    resolution: {integrity: sha512-l47tb1uhmVIebHUkw+HEPtU/av0G4O8Q34g2cbkPvC7/e9ZhANcjUUciKt9Hp6gSVDdIuXBBLwJQn2LkeGMOAw==}
+    peerDependencies:
+      astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0 || ^6.0.0-beta
 
   astro@5.16.11:
     resolution: {integrity: sha512-Z7kvkTTT5n6Hn5lCm6T3WU6pkxx84Hn25dtQ6dR7ATrBGq9eVa8EuB/h1S8xvaoVyCMZnIESu99Z9RJfdLRLDA==}
@@ -1188,6 +1205,9 @@ packages:
 
   expressive-code@0.41.5:
     resolution: {integrity: sha512-iXl9BgDogQgzgE/WRSrcyU8upOcRZrXPMiu6tegEHML57YLQ65S0E3/sjAXmMZy0GXoPs60s9jbwoMo/mdEQOg==}
+
+  expressive-code@0.41.6:
+    resolution: {integrity: sha512-W/5+IQbrpCIM5KGLjO35wlp1NCwDOOVQb+PAvzEoGkW1xjGM807ZGfBKptNWH6UECvt6qgmLyWolCMYKh7eQmA==}
 
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
@@ -1838,6 +1858,9 @@ packages:
   rehype-expressive-code@0.41.5:
     resolution: {integrity: sha512-SzKJyu7heDpkt+XE/AqeWsYMSMocE/5mpJXD6CMgstqJHSE9bxGNcLp3zL9Wne3M5iBsS4GJyOD2syV77kRveA==}
 
+  rehype-expressive-code@0.41.6:
+    resolution: {integrity: sha512-aBMX8kxPtjmDSFUdZlAWJkMvsQ4ZMASfee90JWIAV8tweltXLzkWC3q++43ToTelI8ac5iC0B3/S/Cl4Ql1y2g==}
+
   rehype-format@5.0.1:
     resolution: {integrity: sha512-zvmVru9uB0josBVpr946OR8ui7nJEdzZobwLOOqHb/OOD88W0Vk2SqLwoVOj0fM6IPCCO6TaV9CvQvJMWwukFQ==}
 
@@ -1890,8 +1913,8 @@ packages:
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
 
-  remend@1.0.1:
-    resolution: {integrity: sha512-152puVH0qMoRJQFnaMG+rVDdf01Jq/CaED+MBuXExurJgdbkLp0c3TIe4R12o28Klx8uyGsjvFNG05aFG69G9w==}
+  remend@1.0.2:
+    resolution: {integrity: sha512-Kcr8qu3OcfX9pjVjzj3KC1B7jVZKofQzX1UEQ5W5LPS/pFTgOjF58zDBgdi6NDw86Ro8vOS0S0Yyf9r7CprmGg==}
 
   retext-latin@4.0.0:
     resolution: {integrity: sha512-hv9woG7Fy0M9IlRQloq/N6atV82NxLGveq+3H2WOi79dtIYWN8OaxogDm77f8YnVXJL2VD3bbqowu5E3EMhBYA==}
@@ -2289,26 +2312,26 @@ packages:
 
 snapshots:
 
-  '@algolia/client-common@5.46.2': {}
+  '@algolia/client-common@5.46.3': {}
 
-  '@algolia/client-search@5.46.2':
+  '@algolia/client-search@5.46.3':
     dependencies:
-      '@algolia/client-common': 5.46.2
-      '@algolia/requester-browser-xhr': 5.46.2
-      '@algolia/requester-fetch': 5.46.2
-      '@algolia/requester-node-http': 5.46.2
+      '@algolia/client-common': 5.46.3
+      '@algolia/requester-browser-xhr': 5.46.3
+      '@algolia/requester-fetch': 5.46.3
+      '@algolia/requester-node-http': 5.46.3
 
-  '@algolia/requester-browser-xhr@5.46.2':
+  '@algolia/requester-browser-xhr@5.46.3':
     dependencies:
-      '@algolia/client-common': 5.46.2
+      '@algolia/client-common': 5.46.3
 
-  '@algolia/requester-fetch@5.46.2':
+  '@algolia/requester-fetch@5.46.3':
     dependencies:
-      '@algolia/client-common': 5.46.2
+      '@algolia/client-common': 5.46.3
 
-  '@algolia/requester-node-http@5.46.2':
+  '@algolia/requester-node-http@5.46.3':
     dependencies:
-      '@algolia/client-common': 5.46.2
+      '@algolia/client-common': 5.46.3
 
   '@astrojs/compiler@2.13.0': {}
 
@@ -2653,18 +2676,43 @@ snapshots:
       unist-util-visit: 5.0.0
       unist-util-visit-parents: 6.0.2
 
+  '@expressive-code/core@0.41.6':
+    dependencies:
+      '@ctrl/tinycolor': 4.2.0
+      hast-util-select: 6.0.4
+      hast-util-to-html: 9.0.5
+      hast-util-to-text: 4.0.2
+      hastscript: 9.0.1
+      postcss: 8.5.6
+      postcss-nested: 6.2.0(postcss@8.5.6)
+      unist-util-visit: 5.0.0
+      unist-util-visit-parents: 6.0.2
+
   '@expressive-code/plugin-frames@0.41.5':
     dependencies:
       '@expressive-code/core': 0.41.5
+
+  '@expressive-code/plugin-frames@0.41.6':
+    dependencies:
+      '@expressive-code/core': 0.41.6
 
   '@expressive-code/plugin-shiki@0.41.5':
     dependencies:
       '@expressive-code/core': 0.41.5
       shiki: 3.21.0
 
+  '@expressive-code/plugin-shiki@0.41.6':
+    dependencies:
+      '@expressive-code/core': 0.41.6
+      shiki: 3.21.0
+
   '@expressive-code/plugin-text-markers@0.41.5':
     dependencies:
       '@expressive-code/core': 0.41.5
+
+  '@expressive-code/plugin-text-markers@0.41.6':
+    dependencies:
+      '@expressive-code/core': 0.41.6
 
   '@img/colour@1.0.0': {}
 
@@ -2958,10 +3006,10 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@stainless-api/docs-ai-chat@0.1.0-beta.21(@stainless-api/docs-ui@0.1.0-beta.57(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@stainless-api/docs@0.1.0-beta.77(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2)))(@stainless-api/ui-primitives@0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@stainless-api/docs-ai-chat@0.1.0-beta.22(@stainless-api/docs-ui@0.1.0-beta.58(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@stainless-api/docs@0.1.0-beta.78(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2)))(@stainless-api/ui-primitives@0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@stainless-api/docs': 0.1.0-beta.77(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2))
-      '@stainless-api/docs-ui': 0.1.0-beta.57(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@stainless-api/docs': 0.1.0-beta.78(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2))
+      '@stainless-api/docs-ui': 0.1.0-beta.58(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@stainless-api/ui-primitives': 0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@streamparser/json-whatwg': 0.0.22
       clsx: 2.1.1
@@ -2972,18 +3020,18 @@ snapshots:
       react-markdown: 10.1.0(@types/react@19.2.8)(react@19.2.3)
       react-syntax-highlighter: 16.1.0(react@19.2.3)
       remark-gfm: 4.0.1
-      remend: 1.0.1
+      remend: 1.0.2
       zod: 4.3.5
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
       - '@types/react'
       - supports-color
 
-  '@stainless-api/docs-search@0.1.0-beta.10(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@stainless-api/docs-search@0.1.0-beta.11(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@algolia/client-search': 5.46.2
+      '@algolia/client-search': 5.46.3
       '@markdoc/markdoc': 0.5.4(@types/react@19.2.8)(react@19.2.3)
-      '@stainless-api/docs-ui': 0.1.0-beta.57(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@stainless-api/docs-ui': 0.1.0-beta.58(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@stainless-api/ui-primitives': 0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       cheerio: 1.1.2
       fuse.js: 7.1.0
@@ -2994,7 +3042,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@stainless-api/docs-ui@0.1.0-beta.57(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@stainless-api/docs-ui@0.1.0-beta.58(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@markdoc/markdoc': 0.5.4(@types/react@19.2.8)(react@19.2.3)
       '@stainless-api/ui-primitives': 0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -3006,17 +3054,17 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@stainless-api/docs@0.1.0-beta.77(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2))':
+  '@stainless-api/docs@0.1.0-beta.78(@astrojs/starlight@0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@6.4.1(yaml@2.8.2))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.10
       '@astrojs/react': 4.4.2(@types/react-dom@19.2.3(@types/react@19.2.8))(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(yaml@2.8.2)
       '@astrojs/starlight': 0.37.3(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
-      '@stainless-api/docs-search': 0.1.0-beta.10(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
-      '@stainless-api/docs-ui': 0.1.0-beta.57(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@stainless-api/docs-search': 0.1.0-beta.11(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@stainless-api/docs-ui': 0.1.0-beta.58(@types/react@19.2.8)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@stainless-api/sdk': 0.1.0-alpha.19
       '@stainless-api/ui-primitives': 0.1.0-beta.43(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       astro: 5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)
-      astro-expressive-code: 0.41.5(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
+      astro-expressive-code: 0.41.6(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
       cheerio: 1.1.2
       clsx: 2.1.1
       dotenv: 17.2.3
@@ -3198,6 +3246,11 @@ snapshots:
     dependencies:
       astro: 5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)
       rehype-expressive-code: 0.41.5
+
+  astro-expressive-code@0.41.6(astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)):
+    dependencies:
+      astro: 5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)
+      rehype-expressive-code: 0.41.6
 
   astro@5.16.11(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
@@ -3596,6 +3649,13 @@ snapshots:
       '@expressive-code/plugin-frames': 0.41.5
       '@expressive-code/plugin-shiki': 0.41.5
       '@expressive-code/plugin-text-markers': 0.41.5
+
+  expressive-code@0.41.6:
+    dependencies:
+      '@expressive-code/core': 0.41.6
+      '@expressive-code/plugin-frames': 0.41.6
+      '@expressive-code/plugin-shiki': 0.41.6
+      '@expressive-code/plugin-text-markers': 0.41.6
 
   extend@3.0.2: {}
 
@@ -4668,6 +4728,10 @@ snapshots:
     dependencies:
       expressive-code: 0.41.5
 
+  rehype-expressive-code@0.41.6:
+    dependencies:
+      expressive-code: 0.41.6
+
   rehype-format@5.0.1:
     dependencies:
       '@types/hast': 3.0.4
@@ -4782,7 +4846,7 @@ snapshots:
       mdast-util-to-markdown: 2.1.2
       unified: 11.0.5
 
-  remend@1.0.1: {}
+  remend@1.0.2: {}
 
   retext-latin@4.0.0:
     dependencies:
