@@ -11,12 +11,10 @@ To get up and running quickly, use our [quickstart guide](https://stainless.com/
 
 ## About Stainless Docs
 
-The Stainless Docs Platform is built on top of [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). Starlight is a powerful documentation framework designed for speed, accessibility, and customizability.
-
-This project is a standard Starlight project with the `stl-starlight` plugin pre-configured.
+The Stainless Docs Platform is a documentation framework built on [Astro](https://astro.build) that combines automated API reference generation with a flexible system for authoring guides and other long-form technical content.
 
 ## 👀 Want to learn more?
 
 Our [Stainless Docs Platform documentation](https://stainless.com/docs/docs-platform/) contains guides, reference material, and other useful information. Check there first.
 
-You may also find [the Starlight docs](https://starlight.astro.build/getting-started/) and [Astro's docs](https://docs.astro.build) helpful.
+You may also find [Astro's docs](https://docs.astro.build) helpful.
