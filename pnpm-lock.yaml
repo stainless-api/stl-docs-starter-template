@@ -12,14 +12,14 @@ importers:
         specifier: ^4.4.2
         version: 4.4.2(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(yaml@2.8.2)
       '@astrojs/starlight':
-        specifier: ^0.37.6
-        version: 0.37.6(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
+        specifier: ^0.37.7
+        version: 0.37.7(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
       '@stainless-api/docs':
-        specifier: 0.1.0-beta.105
-        version: 0.1.0-beta.105(@astrojs/starlight@0.37.6(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@6.4.1(yaml@2.8.2))
+        specifier: 0.1.0-beta.108
+        version: 0.1.0-beta.108(@astrojs/starlight@0.37.7(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@6.4.1(yaml@2.8.2))
       '@stainless-api/docs-ai-chat':
-        specifier: 0.1.0-beta.46
-        version: 0.1.0-beta.46(@stainless-api/docs-ui@0.1.0-beta.79(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: 0.1.0-beta.48
+        version: 0.1.0-beta.48(@stainless-api/docs-ui@0.1.0-beta.79(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       astro:
         specifier: ^5.18.0
         version: 5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)
@@ -93,8 +93,8 @@ packages:
   '@astrojs/sitemap@3.6.1':
     resolution: {integrity: sha512-+o+TbxXqQJAOd+HxCjz/5RdAMrRFGjeuO+U6zddUuTO59WqMqXnsc8uveRiEr2Ff+3McZiEne7iG4J5cnuI6kA==}
 
-  '@astrojs/starlight@0.37.6':
-    resolution: {integrity: sha512-wQrKwH431q+8FsLBnNQeG+R36TMtEGxTQ2AuiVpcx9APcazvL3n7wVW8mMmYyxX0POjTnxlcWPkdMGR3Yj1L+w==}
+  '@astrojs/starlight@0.37.7':
+    resolution: {integrity: sha512-KyBnou8aKIlPJUSNx6a1SN7XyH22oj/VAvTGC+Edld4Bnei1A//pmCRTBvSrSeoGrdUjK0ErFUfaEhhO1bPfDg==}
     peerDependencies:
       astro: ^5.5.0
 
@@ -933,15 +933,15 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@stainless-api/ai-chat@0.1.0-beta.8':
-    resolution: {integrity: sha512-kvafCb0zGJAZkbBksH/nNx7bOO+zwFBMhRhwWmUmOp/nj3cN++MEA6645VLvoTK/WhHKZSh/yD4iHmGja1NWhg==}
+  '@stainless-api/ai-chat@0.1.0-beta.10':
+    resolution: {integrity: sha512-Ll5vEah2mtT5c4mmOUE5cpOPSb+6KsKDpNEmXJI1m76p6OGUTz1APXtt4uLlKMp7k1ejagysihBx/kcDNO9rnw==}
     peerDependencies:
       '@stainless-api/ui-primitives': 0.1.0-beta.49
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@stainless-api/docs-ai-chat@0.1.0-beta.46':
-    resolution: {integrity: sha512-+gFuCc0XBi8v3GwIUdDjPY6g1u3oDyLamFIHxJExFgeKiiqdCwhRsVdi8G68ZTacKMbKkfpzEYVDd4jPLX0E1Q==}
+  '@stainless-api/docs-ai-chat@0.1.0-beta.48':
+    resolution: {integrity: sha512-ee20lB42xZz/wE4qyxVGgpY1CG/ZnlO4HwATpQ91+I4ua7PVYtid1K3Kr9sDUEwlwToiNPvGrdTnUJzeCCf5Tw==}
     peerDependencies:
       '@stainless-api/docs-ui': 0.1.0-beta.79
       react: '>=19.0.0'
@@ -959,8 +959,8 @@ packages:
       react: '>=19.0.0'
       react-dom: '>=19.0.0'
 
-  '@stainless-api/docs@0.1.0-beta.105':
-    resolution: {integrity: sha512-IhVVojjmgOqohbSFmPefLZYhHO9oYxTff1vLgr58nYcPfbP/8aaME0P0t2sjawccAna7eSxontFRFLsZE48SNw==}
+  '@stainless-api/docs@0.1.0-beta.108':
+    resolution: {integrity: sha512-nTeQDDrRA01jVM+Y+46pIow/+4eF6V6E8RvLAi5xT7uKqXJhTeYWFX07nl61tzYG5Floocfv1VdwBJxzvCg2IQ==}
     engines: {node: '>=18.17.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.37.5'
@@ -2609,7 +2609,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/starlight@0.37.6(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))':
+  '@astrojs/starlight@0.37.7(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.10
       '@astrojs/mdx': 4.3.13(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
@@ -2955,7 +2955,7 @@ snapshots:
   '@expressive-code/plugin-shiki@0.41.6':
     dependencies:
       '@expressive-code/core': 0.41.6
-      shiki: 3.21.0
+      shiki: 3.22.0
 
   '@expressive-code/plugin-text-markers@0.41.6':
     dependencies:
@@ -3284,7 +3284,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@stainless-api/ai-chat@0.1.0-beta.8(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@stainless-api/ai-chat@0.1.0-beta.10(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@stainless-api/ui-primitives': 0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       clsx: 2.1.1
@@ -3302,9 +3302,9 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  '@stainless-api/docs-ai-chat@0.1.0-beta.46(@stainless-api/docs-ui@0.1.0-beta.79(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@stainless-api/docs-ai-chat@0.1.0-beta.48(@stainless-api/docs-ui@0.1.0-beta.79(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@stainless-api/ai-chat': 0.1.0-beta.8(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@stainless-api/ai-chat': 0.1.0-beta.10(@stainless-api/ui-primitives@0.1.0-beta.49(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@stainless-api/docs-ui': 0.1.0-beta.79(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@streamparser/json-whatwg': 0.0.22
       react: 19.2.4
@@ -3343,11 +3343,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@stainless-api/docs@0.1.0-beta.105(@astrojs/starlight@0.37.6(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@6.4.1(yaml@2.8.2))':
+  '@stainless-api/docs@0.1.0-beta.108(@astrojs/starlight@0.37.7(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2)))(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@6.4.1(yaml@2.8.2))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.10
       '@astrojs/react': 4.4.2(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(yaml@2.8.2)
-      '@astrojs/starlight': 0.37.6(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
+      '@astrojs/starlight': 0.37.7(astro@5.18.0(rollup@4.55.1)(typescript@5.9.3)(yaml@2.8.2))
       '@stainless-api/docs-search': 0.1.0-beta.32(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@stainless-api/docs-ui': 0.1.0-beta.79(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@stainless-api/sdk': 0.1.0-alpha.19
