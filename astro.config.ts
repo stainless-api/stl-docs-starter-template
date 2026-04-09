@@ -1,6 +1,5 @@
 import { defineConfig } from "astro/config";
 import { generateAPIReferenceItems, stainlessDocs } from "@stainless-api/docs";
-import aiChat from "@stainless-api/docs-ai-chat/plugin";
 
 // https://astro.build/config
 export default defineConfig({
@@ -25,7 +24,7 @@ export default defineConfig({
         ],
       },
       experimental: {
-        aiChat: aiChat(),
+        aiChat: true,
       },
       tabs: [
         {
