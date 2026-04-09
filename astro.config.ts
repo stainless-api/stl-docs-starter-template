@@ -1,25 +1,25 @@
-import { defineConfig } from "astro/config";
-import { generateAPIReferenceItems, stainlessDocs } from "@stainless-api/docs";
+import { defineConfig } from 'astro/config';
+import { generateAPIReferenceItems, stainlessDocs } from '@stainless-api/docs';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
     stainlessDocs({
       apiReference: {
-        stainlessProject: "{{ PROJECT_NAME }}",
+        stainlessProject: '{{ PROJECT_NAME }}',
         propertySettings: {
           collapseDescription: false,
           expandDepth: 2,
         },
       },
-      title: "{{ PROJECT_TITLE }}",
-      customCss: ["./theme.css"],
+      title: '{{ PROJECT_TITLE }}',
+      customCss: ['./theme.css'],
       header: {
-        layout: "stacked",
+        layout: 'stacked',
         links: [
           {
-            label: "Get started",
-            link: "/",
+            label: 'Get started',
+            link: '/',
           },
         ],
       },
@@ -28,22 +28,22 @@ export default defineConfig({
       },
       tabs: [
         {
-          label: "Guides",
-          link: "/",
+          label: 'Guides',
+          link: '/',
           sidebar: [
             {
-              label: "Getting started",
-              items: [""], // "" links to the index page
+              label: 'Getting started',
+              items: [''], // "" links to the index page
             },
             {
-              label: "Guides",
-              autogenerate: { directory: "guides" },
+              label: 'Guides',
+              autogenerate: { directory: 'guides' },
             },
           ],
         },
         {
-          label: "API Reference",
-          link: "/api",
+          label: 'API Reference',
+          link: '/api',
           sidebar: generateAPIReferenceItems({
             excludeResourceOverviewPages: true,
           }),
