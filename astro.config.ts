@@ -23,9 +23,6 @@ export default defineConfig({
           },
         ],
       },
-      experimental: {
-        aiChat: true,
-      },
       tabs: [
         {
           label: 'Guides',
